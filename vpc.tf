@@ -1,4 +1,4 @@
-# VPC — isolated network, all resources live inside this
+# VPC — A VPC (Virtual Private Cloud) is your own isolated network inside AWS.
 resource "aws_vpc" "main" {
   cidr_block = "10.0.0.0/16"
 }
